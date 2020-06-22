@@ -1,0 +1,14 @@
+name: djangorestenv
+channels:
+  - conda-forge # Extra dependency repository/channel
+  - defaults
+dependencies:
+  - python=3.7.3=h8c8aaf0_1 # python version used
+  - django=2.2.1=py37_0 # Django for python web app project
+  - sqlparse=0.3.0=py_0 # Required for Django
+  - djangorestframework=3.10.2=py_0 # To auto support RESTful API
+  - mysqlclient=1.3.14=py37he774522_0 # mysql
+  - pylint=2.3.1=py37_0 # For Python code checking in IDEs (e.g. VS Code)
+  - pylint-django=2.0.11=py_0 # For Django code checking in IDEs (e.g. VS Code)
+  - autopep8=1.4.4=py_0 # For Python code auto formatting in IDE
+
