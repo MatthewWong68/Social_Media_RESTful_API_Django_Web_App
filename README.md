@@ -8,6 +8,6 @@ We can access the data in a good way where we are able to handle multiple calls.
 
 The environment file (environment.yml) is included in the source file.
 
-## Flowchart of API
+## Flowchart of the RESTful API
 
 ![alt image](RESTfulAPI.png) 
